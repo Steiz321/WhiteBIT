@@ -76,7 +76,7 @@ body {
     font-size: 12px;
     line-height: 12px;
     font-family: 'Inter', sans-serif;
-    transition: 1s;
+    transition: 0.5s;
     text-decoration: none;
 }
 
@@ -136,6 +136,13 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.intro__btn:hover {
+    box-shadow: 0 0 35px rgba(242, 208, 128,0.5);
+    transition: 0.5s;
 }
 
 .intro__right {
@@ -183,4 +190,37 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #91919D;
+}
+
+/* Coins */
+.coins {
+    height: 700px;
+    width: 100%;
+}
+
+.coins__inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.coins__title {
+    padding-top: 72px;
+    margin-bottom: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 46px;
+    color: #07070B;
+}
+
+.coins__text {
+    font-family: 'Inter', sans-serif;
+    color: #91919D;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 64px;
 }
